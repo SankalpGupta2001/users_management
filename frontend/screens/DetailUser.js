@@ -62,7 +62,6 @@ const DetailUser = () => {
             <Text style={styles.heading}>User Details</Text>
             {user ? (
                 <View>
-                    <Text>User ID: {user._id}</Text>
                     <Text>User Name: {user.userName}</Text>
                     <Text>Email: {user.email}</Text>
                     <Text>Phone: {user.phone}</Text>
@@ -70,7 +69,7 @@ const DetailUser = () => {
                         <TouchableOpacity style={styles.updateBtn} onPress={handleUpdate}>
                             <Text>Update</Text>
                         </TouchableOpacity>
-                        <TouchableOpacity style={styles.deleteBtn} onClick={confirmDelete}>
+                        <TouchableOpacity style={styles.deleteBtn} onClick={handleDelete}>
                             <Text>Delete</Text>
                         </TouchableOpacity>
                     </View>
