@@ -14,4 +14,7 @@ Now project will be run in localhost
 
 Brief Description of assignment
 
-In this assignment i have covered all points , update user , Add new user , Delete user , Details of user 
+1) In this assignment i have covered all points , update user , Add new user , Delete user , Details of user .
+2) I have maked confirmation functionality for deletion of user
+3) I have maked Network checkup (Internet or wifi is opened or not)
+4) And all other functionality 
